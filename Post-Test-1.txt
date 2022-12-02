@@ -1,0 +1,18 @@
+1. Membuat method pada java caranya adalah, tulis nama method nya diikuti tanda kurung.
+pada java, semua blok kode berada dalam sebuah class dan diberi acess modifier.
+contohny sbg berikut :
+public class Main {
+    static void myMethod() {
+        System.out.println("Hello Wolrd!");
+    }
+}
+
+2. Perintah memanggil method java:
+dengan cara membuat object baru, kemudian dipanggil methodnya dengan menggunakan tanda titik lalu diikuti nama method.
+contohnya saya ingin memanggil method "myMethod" diatas:
+
+public static void main(String[] args) {
+Main panggilMethod = new  Main();
+panggilMethod.myMethod();
+
+}
